@@ -43,24 +43,30 @@ if (majorKey < 60){
     majorKey = 27;
 } else	{
 	majorKey = 2;
+	console.log(majorKey);
 }
 
-console.log(majorKey);
 // 10. Create a while loop that counts down from 10 and increments `majorKey` by 1.
 var loop = 10;
 while( loop > majorKey.length){
-    loop --;
-    majorKey +=1;
+    // console.log(majorKey);
+    majorKey = majorKey++;
+    loop--;
 }
+
 
 // 11. Create a function that accepts an argument `val`. The function should convert `val` to a string, then drop the first character off the string, but only if there
 // is more than one character in the string. Return `val` and set `majorKey` to the returned value.
+ function something(val){
+  var help = 725;
 
+ }
 
 // 12. Call the function.
+ something();
 
 // 13. Console log `majorKey`. 
-
+ console.log(majorKey);
 // 14. Create an index.html file, link in this JavaScript file. Load in the browser and check the value from Step 13.
 
 // 15. Your answer should be a string value that equals 7. Is that what you got?
