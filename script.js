@@ -70,7 +70,6 @@ if (val.length > 1) {
     majorKey = val;
  }
 
-//We tried \_(ツ)_/¯
 
 // 12. Call the function.
  something();
@@ -80,4 +79,4 @@ if (val.length > 1) {
 // 14. Create an index.html file, link in this JavaScript file. Load in the browser and check the value from Step 13.
 
 // 15. Your answer should be a string value that equals 7. Is that what you got?
-
+//We tried \_(ツ)_/¯
