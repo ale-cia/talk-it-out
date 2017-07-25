@@ -57,10 +57,19 @@ while( loop > majorKey.length){
 
 // 11. Create a function that accepts an argument `val`. The function should convert `val` to a string, then drop the first character off the string, but only if there
 // is more than one character in the string. Return `val` and set `majorKey` to the returned value.
- function something(val){
-  var help = 725;
+   var val = 725;
 
+ function something(val){
+   // val = val.substr(0);
+   // console.log(val);
+
+if (val.length > 1) {
+  	val =  val.toString();
+
+  } return val;
+    majorKey = val;
  }
+
 
 // 12. Call the function.
  something();
